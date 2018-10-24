@@ -1,0 +1,56 @@
+.contentBody {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+
+}
+
+#myHover:hover {
+  /* display: block; */
+  /* cursor: pointer */
+  left: 20px;
+}
+
+#myHover {
+  background: transparent;
+  outline: none;
+  position: relative;
+  padding: 15px 50px;
+  overflow: hidden;
+}
+
+/*button:before (attr data-hover)*/
+#myHover:hover:before {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+#myHover:before {
+  content: attr(data-hover);
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  letter-spacing: 3px;
+  /* font-weight: 800; */
+  font-size: .8em;
+  opacity: 0;
+  transform: translate(-100%, 0);
+  transition: all .3s ease-in-out;
+}
+
+#myHover:hover p {
+  opacity: 0;
+  transform: translate(100%, 0)
+}
+
+#myHover p {
+  letter-spacing: 3px;
+  /* font-weight: 800; */
+  font-size: .8em;
+  transition: all .3s ease-in-out;
+}

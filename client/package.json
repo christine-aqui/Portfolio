@@ -1,0 +1,24 @@
+{
+  "name": "developer-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:8080/",
+  "dependencies": {
+    "@material-ui/core": "^3.2.0",
+    "react": "^16.5.2",
+    "react-animated-css": "^1.0.4",
+    "react-dom": "^16.5.2",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5",
+    "reactstrap": "^6.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "tachyons": "^4.11.1"
+  }
+}
