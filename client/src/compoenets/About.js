@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import ChrisProfile from './ChrisProfile';
 import {Animated} from "react-animated-css";
 import Story from './Story';
+import './aboutStyle.css';
 
 const styles = {
   layout: {
@@ -20,7 +21,7 @@ class About extends Component {
 
   render() {
     return (
-      <div style={styles.layout}>
+      <div className='aboutpager' style={styles.layout}>
         <Animated animationIn="fadeInLeftBig" animationOut="zoomOutDown" isVisible={true} animationInDelay ={10}>
           <ChrisProfile />
         </Animated>

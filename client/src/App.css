@@ -33,6 +33,7 @@
     transform: rotate(360deg);
   }
 }
-.eduBlip{
+
+.eduBlip {
   overflow-y: scroll;
 }

@@ -1,0 +1,14 @@
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 425px) {
+
+  /* Styles */
+  .aboutpager {
+    flex-direction: column;
+  }
+
+  .myPic {
+    width: 150px;
+    height: 200px;
+  }
+
+}

@@ -29,8 +29,6 @@ if (process.env.NODE_ENV === "production") {
 app.get("/contact", function (req, res) {
 
 
-
-
 const DOMAIN = 'YOUR_DOMAIN_NAME';
 const mailgun = require('mailgun-js')({apiKey: api_key, domain: DOMAIN});
 
