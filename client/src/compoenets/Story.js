@@ -17,7 +17,7 @@ const styles = {
 const Story = () => (
   <div style={styles.textStyle}>
   <h1>About me!</h1>
-    <p>I am a Software Developer and currently working in automation and robotics engineering industry looking to make the change to Software Development.</p>
+    <p>I am a Software Developer located in Toronto. I am currently working in automation and robotics engineering industry with experance looking to make the change to Software Development.</p>
 
     <p>A childhood curiosity led to an educational focus in Engineering,
     more specifically Robotic and Automation technology.

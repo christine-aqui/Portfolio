@@ -27,8 +27,8 @@ class Skill extends Component {
 
   render(){
     return (
-      <div className='pt5' style={styles.layout} >
-        <article className="mw6 mh2 bg-white br3 pa3 pa4-ns mv3 ba b--black-10 tc mh4" style={styles.backgroundimg} >
+      <div className='pt5'>
+        <article className="mh2 bg-white br3 pa3 pa4-ns mv3 ba b--black-10 center tc w-90" style={styles.backgroundimg} >
           <h2>Top 5 Skills</h2>
           <hr className="mw3 bb bw1 b--black-10"></hr>
           <div style={styles.topSkill} className='pa1 w-100'>
