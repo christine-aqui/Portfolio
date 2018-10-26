@@ -17,11 +17,13 @@ const styles = {
 const Story = () => (
   <div style={styles.textStyle}>
   <h1>About me!</h1>
-    <p>I am a Software Developer located in Toronto. I am currently working in automation and robotics engineering industry with experance looking to make the change to Software Development.</p>
+    <p>I am a Software Developer located in Toronto with a background in industrial automation and robotics looking to make the change to into the tech industry.</p>
 
-    <p>A childhood curiosity led to an educational focus in Engineering,
-    more specifically Robotic and Automation technology.
-    My work experience has been both challenging and fun working on programming
+    <p>A childhood curiosity led to an educational focus in Engineering and Technology,
+    more specifically Robotic and Automation. While working for Plexpack,
+    I've gained experience developing control programs for automated packaging machinery,
+    communicating directly with customers and troubleshooting electrical mechanical and software issues both in the field and remotely.
+    My work experiencehas been both challenging and fun working on programming
     projects with the added thrill of being able to control industrial equipment
     with a few lines of code.</p>
 

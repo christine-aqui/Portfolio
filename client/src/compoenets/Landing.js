@@ -26,10 +26,10 @@ class Landing extends Component {
           <img id='loadImg' src={RocketGirl} alt=""></img>
         </Animated>
           <div className='landingtext animated fadeIn'>
-          <Animated animationIn="fadeInRight" isVisible={this.isLoaded} animationInDelay={0}>
+          <Animated animationIn="fadeInRight" isVisible={this.isLoaded} animationInDelay={500}>
             <h1>Christine Aqui</h1>
           </Animated>
-          <Animated animationIn="fadeInLeft" isVisible={this.isLoaded} animationInDelay={100}>
+          <Animated animationIn="fadeInLeft" isVisible={this.isLoaded} animationInDelay={1000}>
             <h3>Software Developer</h3>
           </Animated>
           </div>
