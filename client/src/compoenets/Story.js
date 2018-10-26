@@ -17,7 +17,7 @@ const styles = {
 const Story = () => (
   <div style={styles.textStyle}>
   <h1>About me!</h1>
-    <p>I am a Full Stack JavaScript Developer and currently working in automation and robotics engineering industry looking to make the change to Software Development.</p>
+    <p>I am a Software Developer and currently working in automation and robotics engineering industry looking to make the change to Software Development.</p>
 
     <p>A childhood curiosity led to an educational focus in Engineering,
     more specifically Robotic and Automation technology.
@@ -38,6 +38,12 @@ const Story = () => (
         )
         })
       }
+    </div>
+    <hr className='mt3'/>
+    <div>
+      <h1>Get in Touch</h1>
+      <p>mail: aqui.christine at gmail.com</p>
+      <p>Phone:416 553 5970</p>
     </div>
   </div>
 )

@@ -22,7 +22,7 @@ class Navbar extends Component {
         <Link id='about' style={styles.textColor} className="link dim  f6 f5-l dib mr3 mr4-l" to={'/about'} title="About">About Me</Link>
         <Link to={'/'} style={styles.textColor} className="link dim  f6 f5-l dib mr3 mr4-l" to={'/skill'} title="Skills">My Skills</Link>
         <Link id='projects' style={styles.textColor} className="link dim  f6 f5-l dib mr3 mr4-l" to={'/project'} title="Projects">Projects</Link>
-        <Link id='contact' style={styles.textColor} className="link dim  f6 f5-l dib" to={'/contact'} title="Contact">Contact</Link>
+        {/* <Link id='contact' style={styles.textColor} className="link dim  f6 f5-l dib" to={'/contact'} title="Contact">Contact</Link> */}
       </div>
     </nav>
     )

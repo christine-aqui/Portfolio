@@ -50,15 +50,25 @@ const projectList = [
     collaborators:'christine-aqui'
   },
   {
-  name: 'Clicky Game',
-  type: 'Front-end app ',
-  tech: 'React, CSS, JavaScript',
-  picture: 'https://github.com/christine-aqui/clicky-game/raw/master/public/gif/app-in-motion.gif',
-  description: 'Clicky Memory Game built with React',
-  live: 'https://this-clicky-game.herokuapp.com/',
-  github:'https://github.com/christine-aqui/clicky-game',
-  collaborators:'christine-aqui'
-},
+    name: 'Clicky Game',
+    type: 'Front-end app ',
+    tech: 'React, CSS, JavaScript',
+    picture: 'https://github.com/christine-aqui/clicky-game/raw/master/public/gif/app-in-motion.gif',
+    description: 'Clicky Memory Game built with React',
+    live: 'https://this-clicky-game.herokuapp.com/',
+    github:'https://github.com/christine-aqui/clicky-game',
+    collaborators:'christine-aqui'
+  },
+  {
+    name: '101 Donations',
+    type: 'Elevate Hackathon 2018',
+    tech: 'React.js, Firebase, Bootstrap 4, Mobile-First Web App',
+    picture: 'https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6294955020af986540d05f5d4d8391a3&auto=format&fit=crop&w=1567&q=80',
+    description: 'Poverty and Waste. Two problems can be solved at once. Donate to charity. Sounds simple right? But, making a donation is often more tedious than it seems. We aim to turn donating into a seamless process, connecting people with charities and refugee camps.',
+    live: 'https://donations101.herokuapp.com/',
+    github:'https://github.com/hackathon-teamTO/101-donations',
+    collaborators:'christine-aqui, andretqt, MJ3132, ParhamTaher'
+  },
 ]
 
 export default projectList;

@@ -5,8 +5,8 @@ import {Animated} from "react-animated-css";
 const style = {
 landing: {
   display: 'flex',
-  'justify-content': 'center',
-  'align-items': 'center',
+  justifyContent: 'center',
+  alignItems: 'center',
   width: '100vw',
   margin: 'auto'
 }
@@ -26,11 +26,11 @@ class Landing extends Component {
           <img id='loadImg' src={RocketGirl} alt=""></img>
         </Animated>
           <div className='landingtext animated fadeIn'>
-          <Animated animationIn="fadeInRight" isVisible={this.isLoaded} animationInDelay='0'>
+          <Animated animationIn="fadeInRight" isVisible={this.isLoaded} animationInDelay={0}>
             <h1>Christine Aqui</h1>
           </Animated>
-          <Animated animationIn="fadeInLeft" isVisible={this.isLoaded} animationInDelay='0'>
-            <h3>Full-Stack Javascript Developer</h3>
+          <Animated animationIn="fadeInLeft" isVisible={this.isLoaded} animationInDelay={100}>
+            <h3>Software Developer</h3>
           </Animated>
           </div>
         </div>
