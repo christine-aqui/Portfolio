@@ -22,12 +22,12 @@ const Story = () => (
     <p>A childhood curiosity led to an educational focus in Engineering and Technology,
     more specifically Robotic and Automation. While working for Plexpack,
     I've gained experience developing control programs for automated packaging machinery,
-    communicating directly with customers and troubleshooting electrical mechanical and software issues both in the field and remotely.
-    My work experiencehas been both challenging and fun working on programming
+    communicating directly with customers and troubleshooting electrical, mechanical and software issues both in the field and remotely.
+    My work experience has been both challenging and fun working on programming
     projects with the added thrill of being able to control industrial equipment
     with a few lines of code.</p>
 
-    <p>The logical extension of my education and work experience is
+    <p>The logical extension of my education and work experience coupled with my passion for technology is
     my continued desire to learn and build beautiful software solutions.</p>
 
     <p>When I'm not coding, I like to play soccer, go rock climbing, lift weights and watch movies.</p>
