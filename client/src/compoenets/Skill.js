@@ -17,6 +17,7 @@ const styles = {
     display: 'flex',
     flexDirection: 'row',
     justifyContent : 'center',
+    flexWrap: 'wrap',
   },
   backgroundimg:{
     backgroundImage: `url(${flyingRocket})`,
@@ -26,11 +27,11 @@ class Skill extends Component {
 
   render(){
     return (
-      <div className='pt5' >
-        <article className="mw7 mh2 bg-white br3 pa3 pa4-ns mv3 ba b--black-10 tc" style={styles.backgroundimg} >
+      <div className='pt5' style={styles.layout} >
+        <article className="mw6 mh2 bg-white br3 pa3 pa4-ns mv3 ba b--black-10 tc mh4" style={styles.backgroundimg} >
           <h2>Top 5 Skills</h2>
           <hr className="mw3 bb bw1 b--black-10"></hr>
-          <div style={styles.topSkill} className='pa1 white'>
+          <div style={styles.topSkill} className='pa1 w-100'>
             <a className="f4 fw6 db black link hover-blue pv1 ph2">JavaScript</a>
             <a className="f4 fw6 db black link hover-blue pv1 ph2">React.js</a>
             <a className="f4 fw6 db black link hover-blue pv1 ph2">Node.js</a>
