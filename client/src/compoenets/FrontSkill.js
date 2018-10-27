@@ -20,7 +20,7 @@ const FrontSkills = () => (
                 <div>
                     <a className="f4 fw6 db black link hover-green pv1">HTML</a>
                     <a className="f4 fw6 db black link hover-green pv1">CSS</a>
-                    <a className="f4 fw6 db black link hover-green pv1">Modern JavaScript (ES6)</a>
+                    <a className="f4 fw6 db black link hover-green pv1">JavaScript (ES6)</a>
                     <a className="f4 fw6 db black link hover-green pv1">jQuery</a>
                     <a className="f4 fw6 db black link hover-green pv1">SASS</a>
                     <a className="f4 fw6 db black link hover-green pv1">Bootstrap</a>
