@@ -18,11 +18,23 @@ const style = {
   },
   textHighLight: {
     color: "rgb(255,165,0)"
+  },
+  socialLink: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "center",
+    paddingRight: "10px",
+    paddingLeft: "10px"
   }
 };
 const socialLinks = (
-  <div>
-    <Animated animationIn="zoomIn" animationOut="fadeOut" isVisible={true}>
+  <div style={style.socialLink}>
+    <Animated
+      className="pa2"
+      animationIn="zoomIn"
+      animationOut="fadeOut"
+      isVisible={true}
+    >
       <p>
         <a
           href="https://www.linkedin.com/in/christineaqui/"
@@ -35,7 +47,12 @@ const socialLinks = (
         </a>
       </p>
     </Animated>
-    <Animated animationIn="zoomIn" animationOut="fadeOut" isVisible={true}>
+    <Animated
+      className="pa2"
+      animationIn="zoomIn"
+      animationOut="fadeOut"
+      isVisible={true}
+    >
       <p>
         <a
           href="https://github.com/christine-aqui/"

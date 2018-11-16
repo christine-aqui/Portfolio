@@ -24,18 +24,14 @@ const OtherSkills = () => (
         <hr className="mw3 bb bw1 b--black-10" />
       </div>
       <div>
-        <a className="f4 fw6 db black link hover-hot-pink pv1">GIT</a>
-        <a className="f4 fw6 db black link hover-hot-pink pv1">RESTful APIs</a>
-        <a className="f4 fw6 db black link hover-hot-pink pv1">
-          Responsive Design
-        </a>
-        <a className="f4 fw6 db black link hover-hot-pink pv1">Mobile Design</a>
-        <a className="f4 fw6 db black link hover-hot-pink pv1">Mocha + Chi</a>
-        <a className="f4 fw6 db black link hover-hot-pink pv1">Passport.js</a>
-        <a className="f4 fw6 db black link hover-hot-pink pv1">Travis CI</a>
-        <a className="f4 fw6 db black link hover-hot-pink pv1">
-          Balsamiq Mockups
-        </a>
+        <a className="f4 db black link hover-hot-pink pv1">GIT</a>
+        <a className="f4 db black link hover-hot-pink pv1">RESTful APIs</a>
+        <a className="f4 db black link hover-hot-pink pv1">Responsive Design</a>
+        <a className="f4 db black link hover-hot-pink pv1">Mobile Design</a>
+        <a className="f4 db black link hover-hot-pink pv1">Mocha + Chi</a>
+        <a className="f4 db black link hover-hot-pink pv1">Passport.js</a>
+        <a className="f4 db black link hover-hot-pink pv1">Travis CI</a>
+        <a className="f4 db black link hover-hot-pink pv1">Balsamiq Mockups</a>
       </div>
     </article>
   </Animated>
