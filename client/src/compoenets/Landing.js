@@ -20,12 +20,47 @@ const style = {
     color: "rgb(255,165,0)"
   }
 };
+const socialLinks = (
+  <div>
+    <Animated animationIn="zoomIn" animationOut="fadeOut" isVisible={true}>
+      <p>
+        <a
+          href="https://www.linkedin.com/in/christineaqui/"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="LinkedIn"
+          className="link dim"
+        >
+          Linkedin
+        </a>
+      </p>
+    </Animated>
+    <Animated animationIn="zoomIn" animationOut="fadeOut" isVisible={true}>
+      <p>
+        <a
+          href="https://github.com/christine-aqui/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link dim"
+        >
+          GitHub
+        </a>
+      </p>
+    </Animated>
+  </div>
+);
 
 class Landing extends Component {
-  // isLoaded = false;
+  state = {
+    isLoaded: false,
+    displaySocial: null
+  };
   componentDidMount() {
     this.isLoaded = true;
     // console.log()
+    setTimeout(() => {
+      this.setState({ displaySocial: socialLinks });
+    }, 2500);
   }
 
   render() {
@@ -54,6 +89,7 @@ class Landing extends Component {
             <img id="loadImg" src={RocketGirl} alt="" />
           </Animated>
         </div>
+        {this.state.displaySocial}
       </div>
     );
   }
