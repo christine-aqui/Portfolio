@@ -1,12 +1,12 @@
-import React from "react";
-import { Animated } from "react-animated-css";
-import backIcon from "../compoenets/image/icons/ket1.png";
+import React from 'react';
+import { Animated } from 'react-animated-css';
+import backIcon from './image/icons/ket1.png';
 
 const styles = {
   icon: {
-    zIndex: "-1",
-    width: "30px"
-  }
+    zIndex: '-1',
+    width: '30px',
+  },
 };
 
 const BackSkills = () => (

@@ -3,9 +3,8 @@ import Me from './image/Profile/Me.jpeg';
 import Footer from './Footer';
 
 class ChrisProfile extends Component {
-
   render() {
-    return(
+    return (
       <section className="tc pa3 pa5-ns">
         <article className="hide-child relative b--black-20 mw5 center mySoc">
           <img src={Me} className="db br4 dib myPic" alt="my logo" ></img>
@@ -16,7 +15,7 @@ class ChrisProfile extends Component {
           <Footer />
         </article>
       </section>
-    )
+    );
   }
 }
 

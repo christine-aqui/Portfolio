@@ -1,27 +1,27 @@
-import React, { Component } from "react";
-import FrontSkills from "./FrontSkill";
-import BackSkills from "./BackSkills";
-import OtherSkills from "./OtherSkill";
-import flyingRocket from "./image/FlyingRocket.png";
+import React, { Component } from 'react';
+import FrontSkills from './FrontSkill';
+import BackSkills from './BackSkills';
+import OtherSkills from './OtherSkill';
+import flyingRocket from './image/FlyingRocket.png';
 
 const styles = {
   layout: {
-    display: "flex",
-    flexDirection: "row",
-    flexWrap: "wrap",
-    justifyContent: "center",
+    display: 'flex',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
     // alignItems: 'center',
-    margin: "auto"
+    margin: 'auto',
   },
   topSkill: {
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "center",
-    flexWrap: "wrap"
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    flexWrap: 'wrap',
   },
   backgroundimg: {
-    backgroundImage: `url(${flyingRocket})`
-  }
+    backgroundImage: `url(${flyingRocket})`,
+  },
 };
 class Skill extends Component {
   render() {
@@ -52,10 +52,3 @@ class Skill extends Component {
 }
 
 export default Skill;
-
-// something to think about
-{
-  /* <figure>
-          <embed src="https://wakatime.com/share/@a91730a2-7e69-4138-a0c7-0a07590c3101/f22fc7c6-0f79-4b9c-8296-446766be8ca1.svg" />
-        </figure> */
-}

@@ -41,7 +41,7 @@ const eduList = [
     date: '',
     logo: 'https://cdn1.iconfinder.com/data/icons/hawcons/32/698653-icon-137-document-certificate-128.png',
   },
-]
+];
 
 export default eduList;
 // {

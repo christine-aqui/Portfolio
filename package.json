@@ -8,8 +8,12 @@
     "start:prod": "node server.js",
     "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
     "client": "cd client && npm run start",
-    "install": "cd client && yarn install",
+    "install": "cd client && npm install",
     "build": "cd client && npm run build",
+    "lint": "eslint \"**/*.js\"",
+    "lints": "eslint server.js",
+    "fix": "eslint --fix .",
+    "test": "npm run lint",
     "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
   },
   "repository": {
@@ -30,6 +34,18 @@
     "dotenv": "^6.1.0",
     "express": "^4.16.4",
     "if-env": "^1.0.4",
+    "eslint-config-prettier": "^2.10.0",
+    "eslint-plugin-html": "^4.0.5",
+    "eslint-plugin-prettier": "^2.6.2",
     "mailgun-js": "^0.21.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "nodemon": "^1.18.6"
   }
 }

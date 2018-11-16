@@ -1,7 +1,9 @@
 import React from 'react';
-import {Animated} from "react-animated-css";
+import { Animated } from 'react-animated-css';
 
-const MyEdu = ({logo, schoolName, program, date}) => (
+const MyEdu = ({
+  logo, schoolName, program, date,
+}) => (
   <main className="mw6 center ">
     <Animated animationIn="flipInX" animationOut="zoomOutDown" isVisible={true}>
     <article>
@@ -21,6 +23,6 @@ const MyEdu = ({logo, schoolName, program, date}) => (
       </article>
     </Animated>
   </main>
-)
+);
 
 export default MyEdu;

@@ -4,15 +4,14 @@ import eduList from './List/eduList';
 import MyEdu from './myEdu';
 
 const styles = {
-  textStyle:{
-    textAlign:'left'
+  textStyle: {
+    textAlign: 'left',
   },
-  eduStyle:{
+  eduStyle: {
     width: '100%',
-    height:'200px',
-    // overflowY:'scroll'
-  }
-}
+    height: '200px',
+  },
+};
 
 const Story = () => (
   <div style={styles.textStyle}>
@@ -34,11 +33,9 @@ const Story = () => (
     <hr />
     <h1>Education </h1>
     <div className='eduBlip' style={styles.eduStyle}>
-      {eduList.map(item => {
-        return(
+      {eduList.map(item => (
           <MyEdu schoolName={item.schoolName} program={item.program} date={item.date} logo={item.logo} />
-        )
-        })
+      ))
       }
     </div>
     <hr className='mt3'/>
@@ -48,6 +45,6 @@ const Story = () => (
       <p>Phone:416 553 5970</p>
     </div>
   </div>
-)
+);
 
 export default Story;

@@ -1,31 +1,31 @@
-import React, { Component } from "react";
-import RocketGirl from "./image/rocket1.gif";
-import { Animated } from "react-animated-css";
+import React, { Component } from 'react';
+import { Animated } from 'react-animated-css';
+import RocketGirl from './image/rocket1.gif';
 
 const style = {
   landing: {
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "center",
-    width: "100vw",
-    margin: "auto"
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: '100vw',
+    margin: 'auto',
   },
   textStyle: {
     // textAlign: "-webkit-center",
-    textAlign: "center",
-    color: "rgb(72,61,139)"
+    textAlign: 'center',
+    color: 'rgb(72,61,139)',
   },
   textHighLight: {
-    color: "rgb(255,165,0)"
+    color: 'rgb(255,165,0)',
   },
   socialLink: {
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "center",
-    paddingRight: "10px",
-    paddingLeft: "10px"
-  }
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    paddingRight: '10px',
+    paddingLeft: '10px',
+  },
 };
 const socialLinks = (
   <div style={style.socialLink}>
@@ -70,8 +70,9 @@ const socialLinks = (
 class Landing extends Component {
   state = {
     isLoaded: false,
-    displaySocial: null
+    displaySocial: null,
   };
+
   componentDidMount() {
     this.isLoaded = true;
     // console.log()

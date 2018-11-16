@@ -1,12 +1,12 @@
-import React from "react";
-import { Animated } from "react-animated-css";
-import frontIcon from "../compoenets/image/icons/ket2.png";
+import React from 'react';
+import { Animated } from 'react-animated-css';
+import frontIcon from './image/icons/ket2.png';
 
 const styles = {
   icon: {
-    zIndex: "-1",
-    width: "30px"
-  }
+    zIndex: '-1',
+    width: '30px',
+  },
 };
 
 const FrontSkills = () => (

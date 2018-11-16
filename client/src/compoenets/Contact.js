@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
 const style = {
-  btnColor:{
+  btnColor: {
     backgroundColor: '#4A3F89',
-    width:'80px',
-    textAlign: 'center'
-  }
-}
+    width: '80px',
+    textAlign: 'center',
+  },
+};
 class Contact extends Component {
   state = {
     emailAddress: '',
@@ -16,17 +16,18 @@ class Contact extends Component {
   handleEmail(event) {
     this.setState({ emailAddress: event.target.value });
   }
+
   handleMessage(event) {
     this.setState({ message: event.target.value });
   }
 
-  onSubmit(event){
+  onSubmit(event) {
     event.preventDefault();
-    console.log('email sent')
-    console.log(this.state)
+    console.log('email sent');
+    console.log(this.state);
   }
 
-  render(){
+  render() {
     return (
       <div className='w-100 pa3 mh2'>
         <form className="measure center">
@@ -35,7 +36,7 @@ class Contact extends Component {
             <div className="mt3">
               <label className="db fw6 lh-copy f6" htmlFor="email-address">Email</label>
               <input className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100"
-              type="email" name="email-address"  id="email-address"
+              type="email" name="email-address" id="email-address"
               onChange={event => this.handleEmail(event) }/>
             </div>
             <div className='pt2'>
@@ -50,7 +51,7 @@ class Contact extends Component {
           </div>
         </form>
       </div>
-    )
+    );
   }
 }
 
