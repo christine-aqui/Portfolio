@@ -41,8 +41,6 @@ const Story = () => (
     <hr className='mt3'/>
     <div>
       <h1>Get in Touch</h1>
-      <p>mail: aqui.christine at gmail.com</p>
-      <p>Phone:416 553 5970</p>
     </div>
   </div>
 );
